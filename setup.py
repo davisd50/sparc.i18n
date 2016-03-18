@@ -38,6 +38,9 @@ setup(name='sparc.i18n',
           'zope.i18nmessageid'
           # -*- Extra requirements: -*-
       ],
+      tests_require=[
+          'sparc.testing'
+      ],
       entry_points="""
       # -*- Entry points: -*-
       """,
